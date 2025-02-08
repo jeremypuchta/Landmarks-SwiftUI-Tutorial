@@ -29,6 +29,45 @@
 		C40C54E52D567A8E00BBCAD1 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C40C55202D57689400BBCAD1 /* Exceptions for "LandmarksUITests" folder in "Landmarks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Images/charleyrivers@2x.jpg",
+				"Resources/Images/chilkoottrail@2x.jpg",
+				"Resources/Images/chincoteague@2x.jpg",
+				"Resources/Images/hiddenlake@2x.jpg",
+				"Resources/Images/icybay@2x.jpg",
+				"Resources/Images/lakemcdonald@2x.jpg",
+				"Resources/Images/rainbowlake@2x.jpg",
+				"Resources/Images/silversalmoncreek@2x.jpg",
+				"Resources/Images/stmarylake@2x.jpg",
+				"Resources/Images/twinlake@2x.jpg",
+				"Resources/Images/umbagog@2x.jpg",
+				Resources/LICENSE/LICENSE.txt,
+			);
+			target = C40C54CA2D567A8D00BBCAD1 /* Landmarks */;
+		};
+		C40C55212D57689400BBCAD1 /* Exceptions for "LandmarksUITests" folder in "LandmarksUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Resources/Images/charleyrivers@2x.jpg",
+				"Resources/Images/chilkoottrail@2x.jpg",
+				"Resources/Images/chincoteague@2x.jpg",
+				"Resources/Images/hiddenlake@2x.jpg",
+				"Resources/Images/icybay@2x.jpg",
+				"Resources/Images/lakemcdonald@2x.jpg",
+				"Resources/Images/rainbowlake@2x.jpg",
+				"Resources/Images/silversalmoncreek@2x.jpg",
+				"Resources/Images/stmarylake@2x.jpg",
+				"Resources/Images/twinlake@2x.jpg",
+				"Resources/Images/umbagog@2x.jpg",
+				Resources/LICENSE/LICENSE.txt,
+			);
+			target = C40C54E42D567A8E00BBCAD1 /* LandmarksUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C40C54CD2D567A8D00BBCAD1 /* Landmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +81,10 @@
 		};
 		C40C54E82D567A8E00BBCAD1 /* LandmarksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C40C55202D57689400BBCAD1 /* Exceptions for "LandmarksUITests" folder in "Landmarks" target */,
+				C40C55212D57689400BBCAD1 /* Exceptions for "LandmarksUITests" folder in "LandmarksUITests" target */,
+			);
 			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
